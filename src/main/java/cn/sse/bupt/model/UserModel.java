@@ -12,7 +12,8 @@ import java.util.Date;
 @Data
 public class UserModel implements Serializable {
 
-    private long id;
+    private static final long serialVersionUID = -90118902838128651L;
+    private int id;
     private String username;
     private String nickname;
     private String password;
@@ -22,4 +23,5 @@ public class UserModel implements Serializable {
     private int userType;
     private int accountStatus;
     private Date createTime;
+    private Date updateTime;
 }
