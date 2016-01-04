@@ -17,6 +17,7 @@ public class NoticeModel implements Serializable {
     private int updateUid;
     private String title;
     private String content;
+    private String fileUrls;
     private int noticeStatus;
     private Date createTime;
     private Date updateTime;
