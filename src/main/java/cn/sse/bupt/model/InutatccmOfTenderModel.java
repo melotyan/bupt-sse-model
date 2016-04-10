@@ -11,6 +11,7 @@ import java.util.Date;
 @Data
 public class InutatccmOfTenderModel implements Serializable {
     private int id;
+    private int uid;
     private String title;
     private String content;
     private String fileUrl;
