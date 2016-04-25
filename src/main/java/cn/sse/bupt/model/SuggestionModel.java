@@ -15,6 +15,7 @@ public class SuggestionModel implements Serializable {
 
     private int id;
     private int uid;
+    private int type;
     private String content;
     private String title;
     private Date createDate;
