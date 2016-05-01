@@ -12,8 +12,8 @@ import java.util.Date;
 public class MailboxModel implements Serializable {
     private int id;
     private int uid;
-    private int senderUid;
-    private int receiverUid;
+    private String senderName;
+    private String receiverName;
     private short senderStatus;
     private short receiverStatus;
     private String title;
