@@ -14,8 +14,8 @@ public class MailboxModel implements Serializable {
     private int uid;
     private String senderName;
     private String receiverName;
-    private short senderStatus;
-    private short receiverStatus;
+    private int senderStatus;
+    private int receiverStatus;
     private String title;
     private String content;
     private Date sendTime;
