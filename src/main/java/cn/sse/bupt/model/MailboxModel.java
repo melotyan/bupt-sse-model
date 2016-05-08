@@ -19,4 +19,5 @@ public class MailboxModel implements Serializable {
     private String title;
     private String content;
     private Date sendTime;
+    private Date updateTime;
 }
